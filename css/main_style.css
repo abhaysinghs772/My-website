@@ -1,0 +1,49 @@
+/* Navbar */
+.navbar a {
+  padding: 8px;
+}
+
+/* Home Section */
+
+#home-page {
+  margin: 5% 0;
+  padding: 10% 10%;
+}
+
+#intro {
+  padding: 5% 0 10% 10%;
+}
+.profile-img {
+  padding: 10% 0 10% 15%;
+}
+
+/* About-me section */
+
+.bold-text {
+  font-size: 6em;
+  position: absolute;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  top: -80px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+.social-links {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.social-links li a {
+  height: 50px;
+  width: 50px;
+  margin: 0 15px;
+  display: block;
+  position: relative;
+}
