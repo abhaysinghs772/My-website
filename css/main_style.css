@@ -47,3 +47,28 @@
   display: block;
   position: relative;
 }
+
+/* Tech-stack section */
+
+#tech-stack{
+  position: relative;
+}
+
+.icon-box{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+
+.tech-icon{
+  height: 20px;
+}
+
+.icon-box h3{
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 0.5rem;
+  line-height: 1;
+}
