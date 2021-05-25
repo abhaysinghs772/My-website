@@ -10,9 +10,10 @@
   bottom: 0;
   text-transform: uppercase;
 }
-.bg-text{
+.bg-text {
   position: relative;
   font-size: 6em;
+  margin-bottom: -1em;
 }
 
 /* Navbar */
@@ -35,6 +36,10 @@
 }
 
 /* About-me section */
+
+.bio {
+  letter-spacing: 2px;
+}
 
 .social-links {
   padding-left: 0;
@@ -63,7 +68,11 @@
   display: flex;
   padding: 20px;
   align-items: center;
-  background: rgba(255, 255, 255, 0.08);;
+  background: white;
+}
+
+.icon-box:hover {
+  background-color: rgba(0, 69, 78, 0.08);
   transition: ease-in-out 0.3s;
 }
 
@@ -77,4 +86,7 @@
   font-weight: 300;
   padding-left: 0.5rem;
   line-height: 1;
+  font-size: 25px;
 }
+
+/* blinking cursor and text animation */
