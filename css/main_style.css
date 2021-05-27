@@ -89,11 +89,11 @@
   font-size: 25px;
 }
 
+/*for mobiles */
 @media (max-width: 993px){
   .overlap-text {
     display: none;
   }
 }
-
 
 /* blinking cursor and text animation */
